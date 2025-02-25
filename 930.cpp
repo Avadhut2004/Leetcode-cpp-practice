@@ -18,4 +18,4 @@ class Solution {
         int numSubarraysWithSum(vector<int>& nums, int goal) {
             return (lte(nums,goal)-lte(nums,goal-1));
         }
-    };
+    };  
